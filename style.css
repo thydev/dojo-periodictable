@@ -28,6 +28,7 @@ div.red {
     background: #fd8f8d;
     display: inline-block;
     margin-left: -3px;
+    margin-top: 0;
 }
 div.yellow {
     background: #fafe06;
