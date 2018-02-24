@@ -27,6 +27,7 @@ div.blue {
 div.red {
     background: #fd8f8d;
     display: inline-block;
+    margin-left: -2px;
 }
 div.yellow {
     background: #fafe06;
@@ -50,7 +51,7 @@ div.green {
 #red {
     display: inline-block;
     vertical-align: bottom;
-    width: 560px;
+    width: 527px;
 }
 
 #yellow {
@@ -71,11 +72,11 @@ div.green {
 
 #label {
     display: inline-block;
-    width: 120px;
+    width: 104px;
 }
 div.blank {
     border: 0;
-    width: 90px;
+    width: 100px;
     height: 48px;
     font-size: 14px;
     color: red;
