@@ -27,7 +27,7 @@ div.blue {
 div.red {
     background: #fd8f8d;
     display: inline-block;
-    margin-left: -2px;
+    margin-left: -3px;
 }
 div.yellow {
     background: #fafe06;
@@ -35,7 +35,7 @@ div.yellow {
 div.green {
     background: #4aec4d;
     display: inline-block;
-    margin-left: -2px;
+    margin-left: -3px;
 }
 
 #blue {
@@ -44,23 +44,24 @@ div.green {
 }
 .blue-col {
     display: inline-block;
-    margin-left: -3px;
+    margin-left: -4px;
     padding: 0;
 }
 
 #red {
     display: inline-block;
     vertical-align: bottom;
-    width: 527px;
+    width: 516px;
 }
 
 #yellow {
     display: inline-block;
+    vertical-align: bottom;
 
 }
 .yellow-col {
     display: inline-block;
-    margin-left: -3px;
+    margin-left: -4px;
     padding: 0;
 }
 
@@ -72,15 +73,36 @@ div.green {
 
 #label {
     display: inline-block;
-    width: 104px;
+    width: 155px;
 }
 div.blank {
     border: 0;
-    width: 100px;
+    width: 150px;
     height: 48px;
     font-size: 14px;
     color: red;
-    text-align: left;
+    text-align: right;
     padding:0;
     margin: 1px 1px;
+}
+#grouprow {
+    width: 1060px;
+}
+#groupcol {
+    width: 50px;
+    display: inline-block;
+}
+div.group {
+    border: 0;
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+    color: red;
+    text-align: center;
+    padding:0;
+    margin: 1px 1px;
+    display: inline-block;
+    /* background-color: #Ffeadd; */
+    margin-left: -3px;
+    line-height: 48px;
 }
