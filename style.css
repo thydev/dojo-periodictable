@@ -1,4 +1,7 @@
-
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
 div.box {
     border: 1px solid;
     width: 48px;
@@ -10,6 +13,7 @@ div.box {
     text-align: center;
     padding:0;
     margin: 1px 1px;
+    vertical-align: middle;
 }
 div.box h3 {
     margin: 0;
@@ -22,10 +26,60 @@ div.blue {
 }
 div.red {
     background: #fd8f8d;
+    display: inline-block;
 }
 div.yellow {
     background: #fafe06;
 }
 div.green {
-    background: #1dc31f;
+    background: #4aec4d;
+    display: inline-block;
+    margin-left: -2px;
+}
+
+#blue {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.blue-col {
+    display: inline-block;
+    margin-left: -3px;
+    padding: 0;
+}
+
+#red {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 560px;
+}
+
+#yellow {
+    display: inline-block;
+
+}
+.yellow-col {
+    display: inline-block;
+    margin-left: -3px;
+    padding: 0;
+}
+
+#green {
+    display: inline-block;
+    width: 740px;
+    margin-top: 10px;
+}
+
+#label {
+    display: inline-block;
+    width: 120px;
+}
+div.blank {
+    border: 0;
+    width: 90px;
+    height: 48px;
+    font-size: 14px;
+    color: red;
+    text-align: left;
+    padding:0;
+    margin: 1px 1px;
 }
